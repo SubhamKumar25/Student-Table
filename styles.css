@@ -1,7 +1,21 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
 }
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: left;
+   
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
 
 .container {
     width: 80%;
@@ -67,3 +81,13 @@ th {
     background-color: #f4f4f4;
 }
 
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
